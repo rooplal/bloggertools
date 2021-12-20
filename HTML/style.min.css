@@ -1,0 +1,51 @@
+#bloggertools{background-color:#fff;margin:auto;border:0;border-radius:6px;box-shadow:0 0 8px 0 rgba(0,0,0,.08);width:100%;display:block;font-size:1rem;}
+#bloggertools img{page-break-inside:avoid;vertical-align:middle;border-style:none;margin-top:-6px;}
+.string-form{margin-bottom:1rem;margin-top:1rem;text-align:center;padding:7px;}
+textarea.string-control{display:block;width:100%;height:calc(9.5em + .95rem + 5px);padding:.375rem .75rem;font-size:1rem;font-weight:400;line-height:1.4;color:#495057;background-color:#fff;background-clip:padding-box;border:1px solid #ced4da;border-radius:6px;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+textarea.string-control::-ms-expand{background-color:transparent;border:0;}
+textarea.string-control:-moz-focusring{color:transparent;text-shadow:0 0 0 #495057;}
+textarea.string-control:focus{color:#495057;background-color:#fff;border-color:#80bdff;outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25);}
+textarea.string-control:disabled,input.string-control[readonly]{background-color:#e9ecef;opacity:1;}
+select.string-control:focus::-ms-value{color:#495057;background-color:#fff;}
+select.string-control[multiple],select.string-control[size]{height:auto;}
+textarea.string-control::-webkit-input-placeholder{color:#6c757d;opacity:1;}
+textarea.string-control::-moz-placeholder{color:#6c757d;opacity:1;}
+textarea.string-control:-ms-input-placeholder{color:#6c757d;opacity:1;}
+textarea.string-control::-ms-input-placeholder{color:#6c757d;opacity:1;margin-top:1rem;}
+textarea.string-control::placeholder{color:#6c757d;opacity:1;}
+@media all and (max-width:576px){#bloggertools{padding:22px;}}
+button{border-radius:0;}
+button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color;}
+.string-form button,input,optgroup,select,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}
+button,input{overflow:visible;}
+button,select{text-transform:none;}
+[role=button]{cursor:pointer;}
+select{word-wrap:normal;}
+[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;}
+[type=button]:not(:disabled),[type=reset]:not(:disabled),[type=submit]:not(:disabled),button:not(:disabled){cursor:pointer;}
+[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none;}
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}
+.string-form textarea{overflow:auto;resize:vertical;}
+.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.475rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+.btn-secondary{color:#fff;background-color:#6c757d;border-color:#6c757d;}
+.btn-secondary:hover{color:#fff;background-color:#5a6268;border-color:#545b62;}
+.btn-secondary.focus,.btn-secondary:focus{color:#fff;background-color:#5a6268;border-color:#545b62;box-shadow:0 0 0 .2rem rgba(130,138,145,.5);}
+.btn-secondary.disabled,.btn-secondary:disabled{color:#fff;background-color:#6c757d;border-color:#6c757d;}
+.btn:hover{color:#ffffff;text-decoration:none;}
+.btn.focus,.btn:focus{outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25);}
+.btn.disabled,.btn:disabled{opacity:.65;}
+.btn:not(:disabled):not(.disabled){cursor:pointer;}
+a.btn.disabled,fieldset:disabled a.btn{pointer-events:none;}
+@media print{*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+#bloggertools img{page-break-inside:avoid;}
+h2,h3,p{orphans:3;widows:3;}
+h2,h3{page-break-after:avoid;}
+@page{size:a3;}
+;}
+
+/* Dark Mode Css */
+.dark #bloggertools{background:#333;color:#f6f6f6;}
+.dark textarea.string-control{background:#444;color:#f6f6f6;border:1px solid #666;}
+.dark .string-form textarea{background:#444;color:#f6f6f6;}
+.dark textarea.string-control::placeholder{color:#f6f6f6;}
